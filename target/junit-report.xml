@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="8.142">
+    <testcase classname="In order to remember the things i want to do, as a ToDo MVC user, I want to manage my ToDo List" name="MVC User Create Task in ToDo" time="7.012">
+        <system-out><![CDATA[When User add task to ToDo list as Validate.................................passed
+Then User Verify task is added under ToDo List as Validate..................passed
+And User Verify task is displayed in Active Tab as Validate.................passed
+And User Verify ToDo Count..................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="In order to remember the things i want to do, as a ToDo MVC user, I want to manage my ToDo List" name="MVC User Create Task in ToDo 2" time="0.909">
+        <system-out><![CDATA[When User add task to ToDo list as Compile..................................passed
+Then User Verify task is added under ToDo List as Compile...................passed
+And User Verify task is displayed in Active Tab as Compile..................passed
+And User Verify ToDo Count..................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

@@ -1,0 +1,14 @@
+
+@tag @CreateTask
+Scenario Outline: MVC User Create Task in ToDo                # src/test/resources/featurefiles/todomvc.feature:34
+  When User add task to ToDo list as Validate                 # com.todomvc.stepdefinitions.HomePageTest.user_add_task_to_to_do_list_as_validate(java.lang.String)
+  Then User Verify task is added under ToDo List as Validate  # com.todomvc.stepdefinitions.HomePageTest.user_verify_task_is_added_under_to_do_list_as_validate(java.lang.String)
+  And User Verify task is displayed in Active Tab as Validate # com.todomvc.stepdefinitions.HomePageTest.user_verify_task_is_displayed_in_active_tab_as_validate(java.lang.String)
+  And User Verify ToDo Count                                  # com.todomvc.stepdefinitions.HomePageTest.user_verify_to_do_count()
+
+@tag @CreateTask
+Scenario Outline: MVC User Create Task in ToDo               # src/test/resources/featurefiles/todomvc.feature:35
+  When User add task to ToDo list as Compile                 # com.todomvc.stepdefinitions.HomePageTest.user_add_task_to_to_do_list_as_validate(java.lang.String)
+  Then User Verify task is added under ToDo List as Compile  # com.todomvc.stepdefinitions.HomePageTest.user_verify_task_is_added_under_to_do_list_as_validate(java.lang.String)
+  And User Verify task is displayed in Active Tab as Compile # com.todomvc.stepdefinitions.HomePageTest.user_verify_task_is_displayed_in_active_tab_as_validate(java.lang.String)
+  And User Verify ToDo Count                                 # com.todomvc.stepdefinitions.HomePageTest.user_verify_to_do_count()
