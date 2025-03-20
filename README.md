@@ -97,15 +97,10 @@ Test classes use these page classes to execute user flows and validate the appli
 3. Logging with Log4j
 Log4j is used to capture detailed logs during the test execution. The logs provide insights into the actions taken during the test and can be used for troubleshooting test failures.
 The logs are written to the logs/test-log.log file.
-4. Reporting with ExtentReports
-ExtentReports provides a rich, visual report in HTML format, giving an easy-to-read summary of the test execution.
-The report is stored in the test-output/extent-report.html file.
-Customization & Extensibility
+
 You can easily extend this framework by adding more feature files and step definitions for new application features.
 If you'd like to add support for other browsers, just update the WebDriver setup in the Test Setup class.
 You can configure Log4j settings to capture more or fewer details based on your needs.
-License
-This project is licensed under the MIT License - see the LICENSE file for more information.
 
 Conclusion
-This framework provides an easy-to-use structure for automating web-based tests using Selenium, Cucumber, and Java. The combination of BDD, Page Object Model, Log4j, and Extent Reports ensures clear test execution, effective debugging, and comprehensive reporting.
+This framework provides an easy-to-use structure for automating web-based tests using Selenium, Cucumber, and Java. The combination of BDD, Page Object Model, Log4j, and Cucumber Reports ensures clear test execution, effective debugging, and comprehensive reporting.
